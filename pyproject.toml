@@ -8,6 +8,7 @@ authors = [
 license = {text = "yes"}
 requires-python = "^3.10.0"
 dependencies = [
+    "uvicorn (>=0.34.2,<0.35.0)"
 ]
 
 
