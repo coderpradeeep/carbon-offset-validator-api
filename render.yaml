@@ -4,5 +4,6 @@ services:
   runtime: python
   plan: free
   autoDeploy: false
+  pythonVersion: 3.10.12
   buildCommand: pip install -r requirements.txt
   startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
